@@ -284,3 +284,9 @@ footer a { color: var(--primary-hover); }
 .page-section, .modal-card, .service-card, .team-card {
   transition: box-shadow .22s, transform .14s, opacity .35s, background .22s;
 }
+
+/* === Correction : supprime la marge en haut de la première section/page === */
+body > .page-section:first-child,
+body > .hero:first-child {
+  margin-top: 0 !important;
+}
