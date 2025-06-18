@@ -2,42 +2,42 @@
 const teamMembers = [
   {
     key: 'samuel',
-    nom: 'Samuel Turle',
+    nom: 'Samuel TURLE',
     role: 'Directeur Général',
     parcours: 'Ingénieur géotechnicien, expérience internationale, fondateur de GÉOTERRIA.',
     missions: 'Direction générale, pilotage des projets, relation clients stratégiques.'
   },
   {
     key: 'pierre',
-    nom: 'Pierre Barneoud-Rousset',
+    nom: 'Pierre BARNEOUT-ROUSSET',
     role: 'Directeur Technique',
     parcours: 'Expert en ingénierie, responsable R&D, passionné par l’innovation géotechnique.',
     missions: 'Supervision technique, formation, développement de méthodes avancées.'
   },
   {
     key: 'stephane',
-    nom: 'Stéphane Castells',
+    nom: 'Stéphane CASTELLS',
     role: 'Responsable Projet',
     parcours: 'Chef de projet expérimenté, spécialisé en suivi de chantier.',
     missions: 'Gestion de projet, accompagnement client, optimisation qualité.'
   },
   {
     key: 'sarah',
-    nom: 'Sarah Texier',
+    nom: 'Sarah TEXIER',
     role: 'Responsable Toulon',
     parcours: 'Responsable d’agence, forte expérience en gestion d’équipe.',
     missions: 'Gestion de l’agence Toulon, développement commercial, relation client.'
   },
   {
     key: 'zayad',
-    nom: 'Zayad Kaddouri',
+    nom: 'Zayad KADDOURI',
     role: 'Ingénieur Géotechnicien',
     parcours: 'Spécialisé en études de sol et suivi d’exécution.',
     missions: 'Études techniques, analyse des sols, participation aux projets.'
   },
   {
     key: 'kevin',
-    nom: 'Kévin Fagot',
+    nom: 'Kévin FAGOT',
     role: 'Technicien Géologue',
     parcours: 'Technicien de terrain, expert en reconnaissances géotechniques.',
     missions: 'Réalisation des essais in situ, mesures, appui technique.'
