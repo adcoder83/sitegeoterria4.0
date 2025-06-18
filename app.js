@@ -138,7 +138,7 @@ function getContactHTML() {
       <h2 class="section-title">Contact</h2>
       <div class="contact-info">
         <p><strong>Adresse :</strong> 42 Avenue Irène et Jean Frédéric Joliot Curie, 83130 La Garde</p>
-        <p><strong>Téléphone :</strong> 04 94 94 21 99</p>
+        <p><strong>Téléphone :</strong> 04 94 27 87 40.</p>
         <p><strong>Email :</strong> contact@geoterria.com</p>
       </div>
       <div class="contact-info" style="margin-top:1em;">
