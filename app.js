@@ -10,35 +10,35 @@ const teamMembers = [
   {
     key: 'pierre',
     nom: 'Pierre BARNEOUT-ROUSSET',
-    role: 'Directeur Technique',
+    role: 'Directeur Technique Groupe',
     parcours: 'Expert en ingénierie, responsable R&D, passionné par l’innovation géotechnique.',
     missions: 'Supervision technique, formation, développement de méthodes avancées.'
   },
   {
     key: 'stephane',
     nom: 'Stéphane CASTELLS',
-    role: 'Responsable Projet',
+    role: 'Responsable Région Sud',
     parcours: 'Chef de projet expérimenté, spécialisé en suivi de chantier.',
     missions: 'Gestion de projet, accompagnement client, optimisation qualité.'
   },
   {
     key: 'sarah',
     nom: 'Sarah TEXIER',
-    role: 'Responsable Toulon',
+    role: 'Responsable La Garde & Ingénieure géotechnicienne',
     parcours: 'Responsable d’agence, forte expérience en gestion d’équipe.',
     missions: 'Gestion de l’agence Toulon, développement commercial, relation client.'
   },
   {
     key: 'zayad',
     nom: 'Zayad KADDOURI',
-    role: 'Ingénieur Géotechnicien',
+    role: 'Responsable Éguilles & Ingénieur géotechnicien',
     parcours: 'Spécialisé en études de sol et suivi d’exécution.',
     missions: 'Études techniques, analyse des sols, participation aux projets.'
   },
   {
     key: 'kevin',
     nom: 'Kévin FAGOT',
-    role: 'Technicien Géologue',
+    role: 'Ingénieur géotechnicien',
     parcours: 'Technicien de terrain, expert en reconnaissances géotechniques.',
     missions: 'Réalisation des essais in situ, mesures, appui technique.'
   }
@@ -91,7 +91,7 @@ function getAproposHTML() {
     <section class="page-section section-scroll">
       <h2 class="section-title">À propos de GÉOTERRIA</h2>
       <p style="font-size:1.14em;line-height:1.6">
-        GÉOTERRIA, bureau d’études indépendant, met l’expertise et l’innovation au service de vos projets de construction.<br>
+        Bureau d’études géologiques et géotechniques, spécialisé dans les études préalables à la construction de bâtiments et d’ouvrages de génie civil.<br>
         <ul class="custom-list">
           <li>Expertise reconnue en ingénierie géotechnique</li>
           <li>Accompagnement personnalisé de l’étude à la réalisation</li>
