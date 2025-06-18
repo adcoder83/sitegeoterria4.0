@@ -98,6 +98,29 @@ function getAproposHTML() {
           <li>Équipe pluridisciplinaire à la pointe de la technologie</li>
         </ul>
       </p>
+      <div class="contact-multi-agency" style="margin-top:2em;">
+        <div class="agency-block">
+          <h3>TOULON (83)</h3>
+          <p>42 av Irène et Jean Frédéric Joliot Curie<br>
+          83130 LA GARDE<br>
+          Tel : 04 94 27 87 40</p>
+        </div>
+        <div class="agency-block">
+          <h3>AIX-EN-PROVENCE (13)</h3>
+          <p>Z.I Les Jalassières - 320 rue Topaze<br>
+          13510 ÉGUILLES<br>
+          Tel : 04 42 26 14 15</p>
+        </div>
+        <div class="agency-block">
+          <h3>TOULOUSE (31)</h3>
+          <p>24 bd Libre Échange<br>
+          31650 - SAINT-ORENS-DE-GAMEVILLE<br>
+          Tel : 05 62 27 12 82</p>
+        </div>
+      </div>
+      <div style="margin:2em 0;">
+        <img src="images/adresses-agences.png" alt="Adresses agences Géoterria" style="width:100%;max-width:800px;border-radius:6px;border:1px solid #ccc;">
+      </div>
     </section>
   `;
 }
