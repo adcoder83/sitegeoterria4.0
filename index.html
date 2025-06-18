@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>GÉOTERRIA - Expertise Géotechnique</title>
+  <meta name="description" content="Bureau d’études géotechniques. Études de sol, ingénierie et expertise. GÉOTERRIA, votre partenaire sur-mesure.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="background-3d">
+    <canvas id="canvas-bg"></canvas>
+    <div class="bg-gradient-overlay"></div>
+  </div>
+  <header>
+    <nav class="main-nav" aria-label="Navigation principale">
+      <div class="logo">
+        <img src="images/logo-geoterria.png" alt="GÉOTERRIA">
+      </div>
+      <button id="burger-menu" class="burger-menu" aria-label="Ouvrir le menu" aria-controls="nav-links" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links" role="menu">
+        <a href="#accueil" data-page="accueil" class="active" role="menuitem">Accueil</a>
+        <a href="#apropos" data-page="apropos" role="menuitem">À propos</a>
+        <a href="#prestations" data-page="prestations" role="menuitem">Prestations</a>
+        <a href="#equipe" data-page="equipe" role="menuitem">Équipe</a>
+        <a href="#contact" data-page="contact" role="menuitem">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <main id="main-content" tabindex="0" aria-live="polite"></main>
+
+  <!-- Modale équipe -->
+  <div id="modal-backdrop" class="modal-backdrop" aria-modal="true" role="dialog" aria-labelledby="modal-content" style="display:none;">
+    <div class="modal-card glass-blur" id="modal-card" tabindex="-1">
+      <button class="modal-close" id="modal-close" aria-label="Fermer la fenêtre">&times;</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 GÉOTERRIA — Bureau d’études géotechniques. Tous droits réservés.</p>
+      <p>
+        <a href="mailto:contact@geoterria.com">contact@geoterria.com</a>
+        &nbsp;|&nbsp; <a href="https://www.linkedin.com/company/geoterria/" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="bg3d.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
