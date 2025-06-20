@@ -13,7 +13,7 @@ const teamMembers = [
   },
   {
     key: 'pierre',
-    nom: 'Pierre BARNEOUT-ROUSSET',
+    nom: 'Pierre BARNEOUD-ROUSSET',
     role: 'Directeur Technique Groupe',
     parcours: 'Expert en ingénierie, responsable R&D, passionné par l’innovation géotechnique.',
     missions: 'Supervision technique, formation, développement de méthodes avancées.'
